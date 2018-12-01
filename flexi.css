@@ -2,6 +2,10 @@
     font-family: Roboto;
     src: url('Roboto-Regular.woff') format('woff');
 }
+@font-face {
+    font-family: Fashion;
+    src: url('Fashion-Fetish-Regular.woff') format('woff');
+}
 
 body {
     background-color: rgb(238, 238, 238)
@@ -33,8 +37,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
+
 .fondo-flexi img {
     width: 80%;
     height: auto;
@@ -42,10 +46,66 @@ body {
 
 .slogan {
     position: absolute;
-    bottom: 300px;
+    bottom: 200px;
     left: 300px;
-    font-family: 'Roboto';
+    font-family: Helvetica, sans-serif;
     font-size: 2em;
-    font-weight: bolder;
+    font-weight: lighter;
+    font-style: italic;
+    color: darkslategrey;
+    text-shadow: 1px 1px 6px rgb(109, 108, 108);  
+}
+
+h3 {
+    font-family: 'Fashion';
+    font-size: 1.5em;
+    color: rgb(82, 106, 136);
+}
+
+h4 {
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    color: rgb(164, 156, 187);
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+}
+
+.descripcion {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2.5%;
+}
+
+.portfolio {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.port img {
+    border-radius: 50%;
+    max-width: 300px;
+    min-height: 300px;
+}
+
+.footer {
+    background-color: rgb(82, 106, 136);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2.5%;
+}
+
+.footer h3 {
+    color: rgb(164, 156, 187);
+}
+.footer p {
+    color: white;
 }
 
