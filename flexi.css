@@ -86,7 +86,6 @@ p {
 .texto {
     font-family: 'Roboto';
     font-size: 1.1em;
-    max-width: 30%;
 }
 
 /*-------Portfolio------*/
@@ -131,7 +130,7 @@ h2 {
 
 /*-------Media-------*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .nav li {
         font-size: 1em;
         border-left: none;
@@ -139,6 +138,16 @@ h2 {
     }
     .menu {
         border-bottom: 2px solid rgb(82, 106, 136);
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+    .descripcion {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
     }
 }
 
