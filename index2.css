@@ -34,8 +34,6 @@ body {
     border-left: 0px;
 }
 
-/* FIN DEL NAV COMIENZO DEL BODY*/
-
 .confian, .trabajar, .titulo-fotos h3 {
     text-align: center;
 }
@@ -56,12 +54,11 @@ h3 {
 }
 
 .fotos img {
-    max-width: 200px;
-    min-height: 200px;
+    max-width: 150px;
+    min-height: 150px;
     filter: grayscale(90%);
 }
 
-/* FORMULARIO */
 
 .formulario {
     font-family: 'Roboto';
@@ -69,7 +66,7 @@ h3 {
     color: black;
 }
 
-form {
+.formulario form {
     margin: auto;
     width: 400px;
     padding: 1em;
@@ -77,40 +74,39 @@ form {
     border-radius: 1em;
 }
 
-form div + div {
+.formulario form div + div {
     margin-top: 1em;
 }
 
-label {
+.formulario label {
     display: inline-block;
     width: 90px;
     text-align: center;
 }
 
-input, textarea {
+.formulario input, .formulario textarea {
     font: 1em sans-serif;
     width: 300px;
     box-sizing: border-box;
     border: 1px solid #999;
 }
 
-textarea {
+.formulario textarea {
     vertical-align: top;
     height: 5em;
     resize: vertical;
 }
 
-.button {
+.formulario .button {
     padding-left: 86px;
 }
-button {
+.formulario button {
     margin-left: .5em;
     background-color: rgb(82, 106, 136);
     border-radius: 2.5em;
     color: white;
     font-size: 15px;
 }
-/*  FIN DEL FORMULARIO  */
 .titulo-fotos {
     padding: 1%;
 }
@@ -141,8 +137,6 @@ h2 {
     color: black;
 }
 
-/*  FIN DEL BODY COMIENZO DEL FOOTER  */
-
 .footer {
     background-color: rgb(82, 106, 136);
     display: flex;
@@ -156,7 +150,7 @@ h2 {
     margin-right: 5px;
 }
 
-.contacto input{
+.formulario .contacto input{
     border-radius: 2.5em;
     color: black;
     font-size: 15px;
@@ -182,8 +176,6 @@ p {
     color: white;
 }
 
-/*  ver nota sobre form en HTML  */
-/*--------Media--------*/
 @media screen and (max-width: 800px) {
     .nav li {
         font-size: 1em;
