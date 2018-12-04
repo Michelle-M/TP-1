@@ -83,18 +83,35 @@ textarea {
 }
 
 .button {
-    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+    padding-left: 90px;
 }
 button {
     margin-left: .5em;
 }
+/*  FIN DEL FORMULARIO  */
 
+.nosotras {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-around ;
+    align-content: center;
+}
 
+.nosotras img {
+    border-radius: 50%;
+    max-width: 300px;
+    min-height: 300px;
+}
 
+p {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    color: white;
+}
 
-
-
-
+.nosotras p {
+    color: black;
+}
 
 
 /*  FIN DEL BODY COMIENZO DEL FOOTER  */
@@ -106,8 +123,11 @@ button {
     padding: 2.5%;
 }
 
-p {
-    font-family: 'Roboto';
-    font-size: 1.2em;
+.footer h3 {
+    color: rgb(164, 156, 187);
+}
+.footer p {
     color: white;
 }
+
+/*  ver nota sobre form en HTML  */
