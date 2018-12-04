@@ -61,6 +61,7 @@ h3 {
 
 
 .formulario {
+    display: flex;
     font-family: 'Roboto';
     font-size: 1.1em;
     color: black;
@@ -184,5 +185,11 @@ p {
     }
     .menu {
         border-bottom: 2px solid rgb(82, 106, 136);
+    }
+    .footer {
+        flex-direction: column;
+        }
+    h3 {
+        font-size: 1.5em;
     }
 }
