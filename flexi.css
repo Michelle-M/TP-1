@@ -42,6 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .fondo-flexi img {
@@ -49,19 +50,6 @@ body {
     height: auto;
 }
 
-.slogan {
-    position: absolute;
-    bottom: 200px;
-    left: 300px;
-    font-family: Helvetica, sans-serif;
-    font-size: 2em;
-    font-weight: lighter;
-    font-style: italic;
-    color:rgb(82, 106, 136);
-    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);  
-}
-
-/*-------Quienes somos------*/
 
 h3 {
     font-family: 'Fashion';
