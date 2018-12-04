@@ -54,8 +54,8 @@ h3 {
 }
 
 .fotos img {
-    max-width: 200px;
-    min-height: 200px;
+    max-width: 150px;
+    min-height: 150px;
     filter: grayscale(90%);
 }
 
