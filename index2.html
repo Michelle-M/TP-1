@@ -18,46 +18,45 @@
 
     <!-------Fin del header-nav----->
 
-    <div class="Confian">
-        <h3>Confian en nosotras</h3>
+    <div class="confian">
+        <h3>Confían en nosotras</h3>
     </div>
 
-    <div class="fotos">
-        <img src="../TP/Logosconfian/2.png" alt="Logo de marca 2">
-        <img src="../TP/Logosconfian/7.png" alt="Logo de marca 7">
-        <img src="../TP/Logosconfian/3.png" alt="Logo de marca 3">
-        <img src="../TP/Logosconfian/5.png" alt="Logo de marca 5">
-        <img src="../TP/Logosconfian/8.png" alt="Logo de marca 8">
-        <img src="../TP/Logosconfian/6.png" alt="Logo de marca 6">
-
+    <div class="empresas">
+        <div class="fotos">
+        <img src="../TP/Logosconfian/2.png" alt="Logo de marca 2" class="responsive">
+        <img src="../TP/Logosconfian/7.png" alt="Logo de marca 7" class="responsive">
+        <img src="../TP/Logosconfian/3.png" alt="Logo de marca 3" class="responsive">
+        <img src="../TP/Logosconfian/5.png" alt="Logo de marca 5" class="responsive">
+        <img src="../TP/Logosconfian/8.png" alt="Logo de marca 8" class="responsive">
+        <img src="../TP/Logosconfian/6.png" alt="Logo de marca 6" class="responsive">
+        </div>
         <!-----Creo que las fotos quedarían 
         muchísimo mejor en escala de grises pero
         no sé cómo hacerlo sin "romper" el PNG y 
         perder la transparencia. Si te das maña...--->
-
-
     </div>
 
     <div class="Trabajar">
         <h3>¿Querés trabajar con nosotras?</h3>
     </div>
 
-    <div>
+    <div class="formulario">
         <form action="" method="GET">
             <div>
-                <label for="Nombre"> <span>Nombre completo</span></label>
+                <label for="Nombre">Nombre completo</label>
                 <input type="text" name="nombre">
             </div>
             <div>
-                <label for="mail"> <span>Email</span></label>
+                <label for="mail">Email</label>
                 <input type="text" name="mail">
             </div>
             <div>
-                <label for="telefono"> <span>Teléfono</span></label>
+                <label for="telefono">Teléfono</label>
                 <input type="text" name="telefono">
             </div>
             <div>
-                <label for="msg"> <span>Mensaje</span></label>
+                <label for="msg">Mensaje</label>
                 <textarea type="msg"> </textarea>
             </div>
             <div class="button">
@@ -68,17 +67,22 @@
 
     <!--Sobre nosotras----->
 
-<br><br><br>
+    <div class="titulo-fotos">
+        <h3>Conocenos</h3>
+    </div>
+
     <div class="nosotras">
             <div class="miche">
-                <img src="./michelle.jpg" alt="foto de Michelle">
-                <h3>Michelle M</h3>
-                <p>Es diseñadora industrial. Le gusta tatuarse flores.</p>
+                <img src="./michelle.jpg" alt="foto de Michelle" class="responsive">
+                <h2>Michelle M</h2>
+                <p>Estudia diseño industrial.</p>
+                <p>Le gusta tatuarse flores.</p>
             </div>
             <div class="maria">
-                <img src="./maria.jpg" alt="Foto de María">
-                <h3>María D</h3>
-                <p>Es periodista. Le gustan los gatos.</p>
+                <img src="./maria.jpg" alt="Foto de María" class="responsive">
+                <h2>María D</h2>
+                <p>Es periodista.</p>
+                <p>Le gustan los gatos.</p>
             </div>
         </div>
 
@@ -91,12 +95,14 @@
             <p>flexi.design@gmail.com</p>
         </div>
         <div class="contacto">
-            <h3>Mantenete en contacto</h3>
+            <h2>Mantenete en contacto</h2>
             <p>Suscibite a nuestro newsletter y no te pierdas las novedades</p>
             <form action="" method="get">
                 <label for="Correo"></label>
-                <label><input type="text" id="Correo" name="Correo" placeholder="ejemplo@mail.com" /></label>
-                <input type="submit" value="Suscribirse">
+                <label><input type="text" id="Correo" name="Correo" placeholder="ejemplo@mail.com"/></label>
+                <div class="buttonsus">
+                <button type="submit" value="Suscribirse">
+                </div>
             </form>
         </div>
     </div>
