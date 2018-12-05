@@ -147,6 +147,7 @@ h2 {
     .descripcion {
         flex-direction: column;
         align-items: center;
+        align-content: space-around;
         padding: 2%;
     }
     .texto {
@@ -155,6 +156,7 @@ h2 {
     }
     .portfolio {
         align-items: center;
+        align-content: space-around;
     }
     p {
         font-size: 0.8em;
